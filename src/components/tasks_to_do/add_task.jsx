@@ -2,7 +2,7 @@ import React from 'react'
 import { useForm } from '../../hooks/useform';
 import ButtonAdd from './button_add';
 
-const Add_Task = ({ handleNewTask }) => {
+const AddTask = ({ handleNewTask }) => {
   const { description, onInputChange, onResetForm } = useForm({
 		description: '',
 	})
@@ -37,5 +37,5 @@ const Add_Task = ({ handleNewTask }) => {
 	)
 }
 
-export default Add_Task
+export default AddTask
 

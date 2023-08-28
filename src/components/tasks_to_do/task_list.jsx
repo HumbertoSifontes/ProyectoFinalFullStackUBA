@@ -1,7 +1,7 @@
 import React from 'react';
-import Task_Items from './task_items';
+import TaskItems from './task_items';
 
-const Task_List = ({
+const TaskList = ({
 	tasks,
 	handleUpdateTask,
 	handleDeleteTask,
@@ -10,7 +10,7 @@ const Task_List = ({
 	return (
 		<ul>
 			{tasks.map(task => (
-				<Task_Items
+				<TaskItems
 					key={task.id}
 					task={task}
 					handleUpdateTask={handleUpdateTask}
@@ -21,4 +21,4 @@ const Task_List = ({
 		</ul>
 	)
 }
-export default Task_List
+export default TaskList

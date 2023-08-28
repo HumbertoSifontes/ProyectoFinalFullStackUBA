@@ -2,7 +2,7 @@ import { useRef, useState } from 'react';
 import { useForm } from '../../hooks/useform';
 import ButtonEdit from './button_edit';
 
-const Update_Task = ({ task, handleUpdateTask }) => {
+const UpdateTask = ({ task, handleUpdateTask }) => {
 	const { updateDescription, onInputChange } = useForm({
 		updateDescription: task.description,
 	});
@@ -39,4 +39,4 @@ const Update_Task = ({ task, handleUpdateTask }) => {
 		</form>
 	);
 };
-export default Update_Task
+export default UpdateTask

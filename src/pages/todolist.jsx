@@ -1,7 +1,7 @@
 import React from 'react'
-import Add_Task from '../components/tasks_to_do/add_task';
+import AddTask from '../components/tasks_to_do/add_task';
 import { useTask } from '../hooks/usetask';
-import Task_List from '../components/tasks_to_do/task_list';
+import TaskList from '../components/tasks_to_do/task_list';
 
 function ToDoList() {
 
@@ -28,10 +28,10 @@ function ToDoList() {
                     <h5>Pendientes: <span>{pendingTasksCount}</span></h5>
                 </div>
                 <div className="section">
-                    <Add_Task handleNewTask={handleNewTask}/>
+                    <AddTask handleNewTask={handleNewTask}/>
                 </div>
                 <div className="section tasks_list">
-                <Task_List
+                <TaskList
 					tasks={tasks}
 					handleUpdateTask={handleUpdateTask}
 					handleDeleteTask={handleDeleteTask}

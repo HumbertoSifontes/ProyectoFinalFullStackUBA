@@ -15,7 +15,6 @@ function ButtonEdit() {
     <button
       className={`btn_edit ${efectoActivo ? 'activo' : ''}`}
       onClick={activarEfecto}
-      role={'button'}
       type={"submit"}
     >
       <span className='botonName'><FaEdit/></span>

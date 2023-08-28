@@ -16,7 +16,6 @@ function ButtonDelete() {
     <button
       className={`btn_delete ${efectoActivo ? 'activo' : ''}`}
       onClick={activarEfecto}
-      role={'button'}
       type={"submit"}
     >
       <span className='botonName'><FaTrash/></span>

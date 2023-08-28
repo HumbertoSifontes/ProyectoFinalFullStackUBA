@@ -15,7 +15,6 @@ function ButtonAdd() {
     <button
       className={`btn_add ${efectoActivo ? 'activo' : ''}`}
       onClick={activarEfecto}
-      role={'button'}
       type={"submit"}
     >
       <span className='botonName'>Agregar   <FaPlus/></span>
