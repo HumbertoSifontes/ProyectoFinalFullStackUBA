@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+<h1>Argentina Programa 4.0 Final Frontend Project</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://proyectofinalfrontendfiuba.netlify.app/
 
-## Available Scripts
+# Task List App
 
-In the project directory, you can run:
+A Single Page Application (SPA) built using React, Redux, and React Router, designed to manage tasks. The app utilizes local storage for data persistence even after page refresh and incorporates additional libraries for decorative UI elements.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Single Page Application (SPA):** This project leverages React and React Router to create a seamless single page experience, enhancing user navigation and interaction.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **State Management with Redux:** Redux is employed to efficiently manage the application's state, allowing for centralized and predictable state changes.
 
-### `npm test`
+- **Persistent Data using Local Storage:** The app utilizes the browser's local storage to store task data, ensuring that tasks are retained even if the page is refreshed or the browser is closed.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Decorative UI Elements:** Specialized libraries were integrated to enhance the visual appeal of the app, making the user interface more engaging and user-friendly.
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- React
+- Redux
+- React Router
+- Local Storage
+- Additional UI Libraries (Bootstrap, ParticleJS)
